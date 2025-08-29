@@ -60,7 +60,7 @@ cd Rock-Paper-Scissors/src
 
 ### 2. Run the Game
 Open index.html in your browser to start playing.
-----
+```
 
 ----
 
