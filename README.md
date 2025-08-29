@@ -57,9 +57,8 @@ Rock-Paper-Scissors/
 ```bash
 git clone https://github.com/YOUR-USERNAME/Rock-Paper-Scissors.git
 cd Rock-Paper-Scissors/src
----
+
 ### 2. Run the Game
-```bash
 Open index.html in your browser to start playing.
 
 ----
