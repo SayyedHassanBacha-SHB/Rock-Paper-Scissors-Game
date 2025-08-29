@@ -68,7 +68,7 @@ function playGame(playerMove){
 	localStorage.setItem("scoreString",JSON.stringify(score));
 	// console.log(JSON.stringify(score));
 	showResult.innerHTML = `You ${result}`;
-	showMoves.innerHTML = `You choose (${playerMove})<img src="../assets/${playerMove}.png" alt="${playerMove}_image"> and computer choose (${cm})<img src="../assets/${cm}.png" alt="">`;
+	showMoves.innerHTML = `You choose (${playerMove})<img src="assets/${playerMove}.png" alt="${playerMove}_image"> and computer choose (${cm})<img src="assets/${cm}.png" alt="">`;
 	showScore.innerHTML = `Win : ${score.win}, Loss : ${score.lose}, Tie : ${score.tie}`; 
 	// console.log(`You chosse ${playerMove}.And computer choose ${cm}.YOU ${result} \n Win : ${score.win}, Loss : ${score.lose}, Tie : ${score.tie}`);
 }
