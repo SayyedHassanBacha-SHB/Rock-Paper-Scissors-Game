@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: clamp(2.5rem,5vw,5rem);
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: clamp(0.8rem,3vw,1.5rem);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button {
+    height: clamp(6rem,8vw,12rem);
+    width: clamp(6rem,8vw,12rem);
+    margin: clamp(1.5rem,3vw,3rem);
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid rgb(124, 118, 118);
+}
+
+img {
+    height: clamp(3rem,5vw,6rem);
+    width: clamp(3rem,5vw,6rem);
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin: clamp(0.5rem,1.5vw,1rem);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem,3vw,2rem);
+}
+
+.button {
+    margin: 10px 30px;
+    text-align: center;
+    text-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    font-size: clamp(0.8rem,3vw,1.3rem);
+    padding: clamp(0.4rem,1vw,0.8rem) clamp(1rem,2vw,2rem) ;
+    border-radius: 20px;
+}
+
+.pop-up {
+    display: none;
+}
+
+.pop-up p{
+    font-size: clamp(0.8rem,3vw,1.3rem);
+}
+
+.pop-up button {
+    font-size: clamp(0.8rem,3vw,1.3rem);
+    border: none;
+    padding: clamp(0.2rem,1vw,0.4rem) clamp(0.2rem,2vw,0.4rem) ;
+    border-radius: 50%;
+    margin-left: 10px;
+}
