@@ -7,7 +7,7 @@ The game includes score tracking, auto-play mode, reset confirmation, and keyboa
 
 ## 🚀 Demo
 Play the live version here:  
-👉 [Rock Paper Scissors Demo]([https://sayyedhassanbacha.github.io/Rock-Paper-Scissors-Game/](https://sayyedhassanbacha-shb.github.io/Rock-Paper-Scissors-Game/))
+👉 [Rock Paper Scissors Demo][https://sayyedhassanbacha-shb.github.io/Rock-Paper-Scissors-Game/](https://sayyedhassanbacha-shb.github.io/Rock-Paper-Scissors-Game/)
 
 ---
 
@@ -39,15 +39,15 @@ Play the live version here:
 ---
 
 ## 📂 Project Structure
-Rock-Paper-Scissors/
-│── assets/ # Game images and screenshot
-│── src/
-│ ├── style.css # Styling
-│ └── script.js # Game logic
-|── index.html # Main UI
-│── .gitignore
-│── LICENSE
-│── README.md
+Rock-Paper-Scissors/                    
+│── assets/ # Game images and screenshot                             
+│── src/                       
+│ ├── style.css # Styling                        
+│ └── script.js # Game logic                        
+|── index.html # Main UI                    
+│── .gitignore                    
+│── LICENSE                  
+│── README.md                     
 
 ---
 
@@ -57,13 +57,15 @@ Rock-Paper-Scissors/
 ```bash
 git clone https://github.com/YOUR-USERNAME/Rock-Paper-Scissors.git
 cd Rock-Paper-Scissors/src
-
+---
 ### 2. Run the Game
 ```bash
 Open index.html in your browser to start playing.
 
 ----
+
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).
-.
+
+---
 
